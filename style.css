@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  background: url(pexels-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.login {
+  text-align: center;
+  height: 478px;
+  width: 424px;
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 0 40px rgb(28, 75, 244);
+}
+.username,
+.password {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+.loginbtn {
+  width: 74%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+.usericon {
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.remMe{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    padding: 12px 0 0 60px;
+}
+.forgot {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    padding: 12px 60px 0 0;
+    float: top;
+
+}
+.p, .a{
+    gap: 0;
+    color: white;
+    font-size: 14px;
+}
+.forgot:hover, .a:hover{
+    text-decoration: wavy;
+    color: rgb(206, 198, 209);
+    transition: all 0.3s ease;
+}
